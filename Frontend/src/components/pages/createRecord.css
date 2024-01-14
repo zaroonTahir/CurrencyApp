@@ -1,0 +1,65 @@
+.create-record-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 150px;
+}
+
+.create-record-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: white;
+    padding: 30px 30px 20px 30px;
+    border-radius: 4px;
+    
+}
+
+.create-record-wrapper input{
+    border: none;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    width: 300px;
+    outline: none !important;
+    transition: all 500ms;
+}
+
+.create-record-wrapper select{
+    border: none;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    width: 300px;
+    outline: none !important;
+    transition: all 500ms;
+}
+
+.create-record-wrapper input:hover,
+.create-record-wrapper select{
+    transform: scale(1.03);
+    border-bottom: 1px solid rgb(8, 99, 116);
+}
+
+.create-record-wrapper button{
+    background-color: rgb(8, 99, 116);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.create-record-wrapper p {
+    color: red;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.create-record-wrapper button:hover{
+    transform: scale(1.03);
+    background-color: tomato;
+}
+
+.create-record-wrapper button:active{
+    opacity: 0.5;
+}
